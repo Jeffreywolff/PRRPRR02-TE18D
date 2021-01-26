@@ -14,6 +14,8 @@ namespace SOLID_Labb
             _color = color;
         }
 
+        public string speakingPhrase { get; set; }
+
         public abstract void Speak();
 
         public abstract void Sleep();
